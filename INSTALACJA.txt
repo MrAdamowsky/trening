@@ -1,0 +1,7 @@
+1. Rozpakuj ZIP. Powinieneś zobaczyć pliki: index.html, manifest.json, sw.js, _headers, icon-*.png.
+2. Wejdź na https://app.netlify.com/drop i przeciągnij tam ten folder (pliki muszą leżeć w jego głównym katalogu).
+3. SPRAWDŹ w przeglądarce (zamień adres na swój):
+   https://TWÓJ-ADRES.netlify.app/manifest.json  -> ma pokazać tekst zaczynający się od {"name":"Trening"
+   https://TWÓJ-ADRES.netlify.app/sw.js          -> ma pokazać kod zaczynający się od const C='trening-v3'
+   Jeśli któryś pokazuje 404 lub samą aplikację, pliki wgrały się źle.
+4. Dopiero potem użyj https://www.pwabuilder.com
